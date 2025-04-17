@@ -1,0 +1,80 @@
+# Build results
+/bin/
+//obj/
+/out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.vs/
+
+# Rider / JetBrains
+.idea/
+
+# DotCover
+*.dotCover
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+**/Dockerfile.*
+coverage-report.*
+coverage/
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+# NuGet v3
+project.lock.json
+project.fragment.lock.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Windows Installer files
+*.msi
+*.exe
+
+# Node modules (caso use JS/TS em algum ponto)
+node_modules/
+
+# Git
+.git/
+
+# Launch settings
+launchSettings.json
+
+# Ignore binaries
+*.dll
+*.exe
+*.pdb
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore env files
+.env
+.env.*
+
+# Ignore coverage output
+coverage/
+lcov-report/
